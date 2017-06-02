@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView_quiz_me_layout">
+
+    <LinearLayout style="@style/LinearLayout_quiz_me_layout">
+
+        <TextView
+            android:id="@+id/question1"
+            style="@style/TextView1_quiz_me_layout" />
+
+        <RadioGroup
+            android:id="@+id/radio_group1"
+            style="@style/RadioGroup1_quiz_me_layout">
+
+            <RadioButton style="@style/RadioButtonYES_quiz_me_layout" />
+
+            <RadioButton style="@style/RadioButtonNO_quiz_me_layout" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question2"
+            style="@style/TextView2_quiz_me_layout" />
+
+        <RadioGroup
+            android:id="@+id/radio_group2"
+            style="@style/RadioGroup2_quiz_me_layout">
+
+            <RadioButton style="@style/RadioButtonYES_quiz_me_layout" />
+
+            <RadioButton style="@style/RadioButtonNO_quiz_me_layout" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question3"
+            style="@style/TextView3_quiz_me_layout" />
+
+        <EditText
+            android:id="@+id/editText1"
+            style="@style/EditText1_quiz_me_layout" />
+
+        <TextView
+            android:id="@+id/question4"
+            style="@style/TextView4_quiz_me_layout" />
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            style="@style/CheckBox1_quiz_me_layout" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            style="@style/CheckBox2_quiz_me_layout" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            style="@style/CheckBox3_quiz_me_layout" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            style="@style/CheckBox4_quiz_me_layout" />
+
+        <TextView
+            android:id="@+id/question5"
+            style="@style/TextView5_quiz_me_layout" />
+
+        <RadioGroup
+            android:id="@+id/radio_group3"
+            style="@style/RadioGroup3_quiz_me_layout">
+
+            <RadioButton style="@style/RadioButtonYES_quiz_me_layout" />
+
+            <RadioButton style="@style/RadioButtonNO_quiz_me_layout" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question6"
+            style="@style/TextView6_quiz_me_layout" />
+
+        <EditText
+            android:id="@+id/editText2"
+            style="@style/EditText2_quiz_me_layout" />
+
+        <TextView
+            android:id="@+id/question7"
+            style="@style/TextView7_quiz_me_layout" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            style="@style/CheckBox5_quiz_me_layout" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            style="@style/CheckBox6_quiz_me_layout" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            style="@style/CheckBox7_quiz_me_layout" />
+
+        <TextView
+            android:id="@+id/question8"
+            style="@style/TextView8_quiz_me_layout" />
+
+        <RadioGroup
+            android:id="@+id/radio_group4"
+            style="@style/RadioGroup4_quiz_me_layout">
+
+            <RadioButton style="@style/RadioButtonYES_quiz_me_layout" />
+
+            <RadioButton style="@style/RadioButtonNO_quiz_me_layout" />
+        </RadioGroup>
+
+        <Button
+            style="@style/SubmitAnswers"
+            android:onClick="submitAnswers" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,50 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">QuizMe</string>
+
+    <string name="activity_main_textView">Think like a Programmer?</string>
+    <string name="activity_main_button">Let us see</string>
+
+    <string name="RadioButtonYES">Yes</string>
+    <string name="RadioButtonNO">No</string>
+
+
+    <string name="question1">Procedural Thinking involves creating perfectly clear and unambiguous instructions for a computer to follow. Is that correct?</string>
+    <string name="question2">Abstract Thinking means finding similarity, or as programmers would say, generality amongst seemigly different things. Is that Correct?</string>
+    <string name="question3">Before source code can be compiled, it has to be ___ ?</string>
+    <string name="question4">Which of the following are a programming language? WARNING! More than one right answer!</string>
+    <string name="question5">Systems Thinking happens when you break a big problem down into smaller pieces. It involves big-picture thinking and decision making about a problem and how different pieces of a program can work together to solve it. Is that correct?</string>
+    <string name="question6">Computer empathy is the ability to understand what ____ is, how it works, and what its good and bad at doing. Please fill in the empty word: </string>
+    <string name="question7">Which of these are programmers tools? WARNING! More than one right answer!</string>
+    <string name="question8">Debugging is a systematic process of relentlessly identifying the cause of a computer program that doesnt work. Do you agree with that statement?</string>
+
+
+    <string name="EditText1_hint"> e.g. parsed, capitalized, saved </string>
+    <string name="EditText2_hint"> e.g. program, computer, software </string>
+
+    <string name="CheckBox1">Python</string>
+    <string name="CheckBox2">Java</string>
+    <string name="CheckBox3">OOP</string>
+    <string name="CheckBox4">FORTRAN</string>
+    <string name="CheckBox5">Computers</string>
+    <string name="CheckBox6">Programs</string>
+    <string name="CheckBox7">Programming languages</string>
+
+    <string name="SubmitAnswers">Submit Answers</string>
+
+    <string name="EditTextAnswer1">parsed</string>
+    <string name="EditTextAnswer2">computer</string>
+
+    <string name="ThankYou">Thank you!</string>
+    <string name="PleaseRate">Please rate to continue</string>
+    <string name="RatingSelected">Rating selected :</string>
+
+
+
+    <string name="resultMessage1">Congratulations! You answered <xliff:g id="goodAnswers" example="1">%d</xliff:g>
+        out of 8 questions correctly! Well done!</string>
+    <string name="resultMessage2">Congratulations! You answered <xliff:g id="goodAnswers" example="1">%d</xliff:g>
+        out of 8 questions correctly! Not bad, but you could improve!</string>
+    <string name="resultMessage3">You answered <xliff:g id="goodAnswers" example="1">%d</xliff:g>
+        out of 8 questions correctly! You should read more!</string>
+
+</resources>

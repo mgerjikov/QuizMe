@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout1_results_layout">
+
+    <TextView
+        android:id="@+id/lblRateMe"
+        style="@style/TextView1_results_layout" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/RatingBar_results_layout" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        style="@style/Button_results_layout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        style="@style/LinearLayout2_results_layout">
+
+        <TextView
+            android:id="@+id/lblResult"
+            style="@style/TextView2_results_layout" />
+
+        <TextView
+            android:id="@+id/txtRatingValue"
+            style="@style/TextView3_results_layout" />
+
+    </LinearLayout>
+</LinearLayout>

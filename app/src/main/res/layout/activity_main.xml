@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/RelativeLayoutActivityMain"
+    tools:context="com.example.android.quizme.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewActivityMain"
+        style="@style/TextViewActivityMain" />
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        style="@style/ViewFlipperStyleActivityMain"
+        android:layout_below="@id/textViewActivityMain">
+
+        <ImageView
+            style="@style/ImageViewActivityMain"
+            android:src="@drawable/picture1" />
+
+        <ImageView
+            style="@style/ImageViewActivityMain"
+            android:src="@drawable/picture2" />
+
+        <ImageView
+            style="@style/ImageViewActivityMain"
+            android:src="@drawable/picture3" />
+
+        <ImageView
+            style="@style/ImageViewActivityMain"
+            android:src="@drawable/picture4" />
+
+        <ImageView
+            style="@style/ImageViewActivityMain"
+            android:src="@drawable/picture5" />
+    </ViewFlipper>
+
+
+    <Button
+        android:id="@+id/buttonActivityMain"
+        style="@style/ButtonActivityMain"
+        android:onClick="startQuiz" />
+
+</RelativeLayout>

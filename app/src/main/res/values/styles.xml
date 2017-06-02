@@ -1,0 +1,336 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Custom style for the Relative Layout in activity_main.xml -->
+    <style name="RelativeLayoutActivityMain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Custom style for the TextView in activity_main.xml -->
+    <style name="TextViewActivityMain">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwentyFourDP</item>
+        <item name="android:text">@string/activity_main_textView</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!-- Custom style for the ImageView in activity_main.xml -->
+    <style name="ImageViewActivityMain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Custom style for the Button in activity_main.xml -->
+    <style name="ButtonActivityMain">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/activity_main_button</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <!-- Custom style for the ViewFlipper in activity_main.xml -->
+    <style name="ViewFlipperStyleActivityMain">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">400dp</item>
+        <item name="android:autoStart">true</item>
+        <item name="android:flipInterval">2000</item>
+    </style>
+
+    <!-- Custom style for the Scroll View in quiz_me_layout.xml -->
+    <style name="ScrollView_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Custom style for the Linear Layout in quiz_me_layout.xml -->
+    <style name="LinearLayout_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Custom style for the Text View that represent question 1 in quiz_me_layout.xml -->
+    <style name="TextView1_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/question1</item>
+    </style>
+
+    <!-- Custom style for the Text View that represent question 2 in quiz_me_layout.xml -->
+    <style name="TextView2_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/question2</item>
+    </style>
+
+    <!-- Custom style for the Text View that represent question 3 in quiz_me_layout.xml -->
+    <style name="TextView3_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/question3</item>
+    </style>
+
+    <!-- Custom style for the Text View that represent question 4 in quiz_me_layout.xml -->
+    <style name="TextView4_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/question4</item>
+    </style>
+
+    <!-- Custom style for the Text View that represent question 5 in quiz_me_layout.xml -->
+    <style name="TextView5_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/question5</item>
+    </style>
+
+    <!-- Custom style for the Text View that represent question 6 in quiz_me_layout.xml -->
+    <style name="TextView6_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/question6</item>
+    </style>
+
+    <!-- Custom style for the Text View that represent question 7 in quiz_me_layout.xml -->
+    <style name="TextView7_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/question7</item>
+    </style>
+
+    <!-- Custom style for the Text View that represent question 8 in quiz_me_layout.xml -->
+    <style name="TextView8_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/question8</item>
+    </style>
+
+    <!-- Custom style for the Radio Group 1 in quiz_me_layout.xml -->
+    <style name="RadioGroup1_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Custom style for the Radio Group 2 in quiz_me_layout.xml -->
+    <style name="RadioGroup2_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+    </style>
+
+    <!-- Custom style for the Radio Group 3 in quiz_me_layout.xml -->
+    <style name="RadioGroup3_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Custom style for the Radio Group 4 in quiz_me_layout.xml -->
+    <style name="RadioGroup4_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Custom style for the Radio Buttons that says YES in quiz_me_layout.xml -->
+    <style name="RadioButtonYES_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:text">@string/RadioButtonYES</item>
+    </style>
+
+    <!-- Custom style for the Radio Buttons that says NO in quiz_me_layout.xml -->
+    <style name="RadioButtonNO_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:text">@string/RadioButtonNO</item>
+    </style>
+
+    <!-- Custom style for the EditText's in quiz_me_layout.xml -->
+    <style name="EditText1_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:hint">@string/EditText1_hint</item>
+    </style>
+
+    <!-- Custom style for the EditText's in quiz_me_layout.xml -->
+    <style name="EditText2_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:hint">@string/EditText2_hint</item>
+    </style>
+
+    <!-- Custom style for the Checked Boxes in quiz_me_layout.xml -->
+    <style name="CheckBox1_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:text">@string/CheckBox1</item>
+    </style>
+
+    <!-- Custom style for the Checked Boxes in quiz_me_layout.xml -->
+    <style name="CheckBox2_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:text">@string/CheckBox2</item>
+    </style>
+
+    <!-- Custom style for the Checked Boxes in quiz_me_layout.xml -->
+    <style name="CheckBox3_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:text">@string/CheckBox3</item>
+    </style>
+
+    <!-- Custom style for the Checked Boxes in quiz_me_layout.xml -->
+    <style name="CheckBox4_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:text">@string/CheckBox4</item>
+    </style>
+
+    <!-- Custom style for the Checked Boxes in quiz_me_layout.xml -->
+    <style name="CheckBox5_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:text">@string/CheckBox5</item>
+    </style>
+
+    <!-- Custom style for the Checked Boxes in quiz_me_layout.xml -->
+    <style name="CheckBox6_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:text">@string/CheckBox6</item>
+    </style>
+
+    <!-- Custom style for the Checked Boxes in quiz_me_layout.xml -->
+    <style name="CheckBox7_quiz_me_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:text">@string/CheckBox7</item>
+    </style>
+
+    <!-- Custom style for the Submit answers button in quiz_me_layout.xml -->
+    <style name="SubmitAnswers">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/SubmitAnswers</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!-- Custom style for the first LinearLayout in results_layout.xml -->
+    <style name="LinearLayout1_results_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Custom style for the second LinearLayout in results_layout.xml -->
+    <style name="LinearLayout2_results_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Custom style for the first TextView in results_layout.xml -->
+    <style name="TextView1_results_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/PleaseRate</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- Custom style for the second TextView in results_layout.xml -->
+    <style name="TextView2_results_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/RatingSelected</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Custom style for the third TextView in results_layout.xml -->
+    <style name="TextView3_results_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwelveDP</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Custom style for the Rating Bar in results_layout.xml -->
+    <style name="RatingBar_results_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:isIndicator">false</item>
+        <item name="android:numStars">5</item>
+        <item name="android:stepSize">0.1</item>
+        <item name="android:layout_margin">@dimen/layout_marginTwentyFourDP</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!-- Custom style for the Button in results_layout.xml -->
+    <style name="Button_results_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/ThankYou</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+
+</resources>
